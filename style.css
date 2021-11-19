@@ -189,8 +189,17 @@ img {
 }
 
 @media (max-width: 520px) {
+  .hero {
+    transform: scale(0.6);
+    padding: 5px 10px;
+  }
+
+  .hero.active {
+    transform: scale(0.9);
+  }
+
   .btn-container {
-    margin-top: 350px;
+    margin-top: 20px;
     bottom: 5vh;
   }
 }
