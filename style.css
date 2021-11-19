@@ -139,6 +139,7 @@ img {
   .hero {
     transform: scale(0.8);
     padding: 10px 15px;
+    margin: 15px 10px;
   }
 
   .hero.active {
@@ -146,7 +147,7 @@ img {
   }
 
   .btn-container {
-    bottom: 5vh;
+    bottom: 10vh;
     margin-top: 200px;
   }
 
@@ -163,10 +164,11 @@ img {
   .hero {
     transform: scale(0.6);
     padding: 8px 10px;
+    margin: 12px 8px;
   }
 
   .hero.active {
-    transform: scale(8);
+    transform: scale(0.8);
   }
 
   h1 {
@@ -192,6 +194,7 @@ img {
   .hero {
     transform: scale(0.5);
     padding: 5px 10px;
+    margin: 8px 6px;
   }
 
   .hero.active {
@@ -200,6 +203,6 @@ img {
 
   .btn-container {
     margin-top: 20px;
-    bottom: 5vh;
+    bottom: 10vh;
   }
 }
