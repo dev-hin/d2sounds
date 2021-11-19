@@ -107,7 +107,6 @@ img {
 
 .btn-container button {
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
   background-color: transparent;
   border: 2px solid #fff;
   font-size: 2rem;
@@ -125,6 +124,7 @@ img {
 .btn-container button:active {
   transform: scale(0.9);
   outline: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 840px) {
@@ -204,6 +204,11 @@ img {
     transform: scale(0.5);
     padding: 5px 10px;
     margin: 8px 6px;
+  }
+
+  h3 {
+    font-size: 0.5rem;
+    margin: 5px 0;
   }
 
   .hero.active {
