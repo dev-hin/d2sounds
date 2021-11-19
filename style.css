@@ -26,7 +26,7 @@ body {
 
 h1 {
   position: fixed;
-  top: 75px;
+  top: 50px;
   font-size: 4rem;
   text-align: center;
   margin: 0px;
@@ -34,7 +34,7 @@ h1 {
 
 h3 {
   position: fixed;
-  top: 140px;
+  top: 100px;
   font-size: 1rem;
   letter-spacing: 1px;
   text-align: center;
@@ -55,7 +55,7 @@ span {
   justify-content: center;
   height: 300px;
   width: 100vw;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .hero {
@@ -65,7 +65,7 @@ span {
   align-items: center;
   width: 90px;
   margin: 20px 15px;
-  padding: 20px 40px;
+  padding: 20px 30px;
   opacity: 0.5;
   transform: scale(1);
   transition: transform 0.6s ease-in-out;
@@ -123,7 +123,7 @@ img {
   outline: 0;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 840px) {
   .btn-container {
     margin-top: 200px;
   }
@@ -138,7 +138,7 @@ img {
 
   .hero {
     transform: scale(0.8);
-    padding: 10px 20px;
+    padding: 10px 15px;
   }
 
   .hero.active {
@@ -161,12 +161,12 @@ img {
   }
 
   .hero {
-    transform: scale(0.7);
-    padding: 8px 16px;
+    transform: scale(0.6);
+    padding: 8px 10px;
   }
 
   .hero.active {
-    transform: scale(1);
+    transform: scale(8);
   }
 
   h1 {
@@ -190,12 +190,12 @@ img {
 
 @media (max-width: 520px) {
   .hero {
-    transform: scale(0.6);
+    transform: scale(0.5);
     padding: 5px 10px;
   }
 
   .hero.active {
-    transform: scale(0.9);
+    transform: scale(0.75);
   }
 
   .btn-container {
